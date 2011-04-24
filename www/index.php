@@ -8,7 +8,7 @@ $smarty->setCompileDir('../smarty/templates_c');
 $smarty->setCacheDir('../smarty/cache');
 $smarty->setConfigDir('../smarty/configs');
 
-$smarty->assign('name', 'Ben');
+$smarty->assign('page', 'About Us');
 $smarty->display('index.tpl');
 
 ?>
