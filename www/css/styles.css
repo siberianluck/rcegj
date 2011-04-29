@@ -2,3 +2,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+#logo {
+    background: url('img/header.jpg');
+}

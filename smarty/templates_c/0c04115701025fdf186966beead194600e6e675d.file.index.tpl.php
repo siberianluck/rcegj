@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2011-04-28 17:37:24
+<?php /* Smarty version Smarty-3.0.7, created on 2011-04-28 18:53:05
          compiled from "../smarty/templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:16181790304db3031307d7c1-95686427%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_smarty_tpl->decodeProperties(array (
     'e79478cf52ba14fea344c76f0d87e53c7096b9a6' => 
     array (
       0 => '../smarty/templates/layout.tpl',
-      1 => 1304033841,
+      1 => 1304038382,
       2 => 'file',
     ),
   ),
@@ -44,11 +44,14 @@ $_smarty_tpl->decodeProperties(array (
             <div id="logo" class="span-6">
                     <img src="img/logo.png" />
             </div>
-            <div id="companyName" class="span-12">
-                    <span>Rolland Consulting Engineers</span>
+            <div id="header" class="span-6">
+                    <img src="img/header1.jpg" />
             </div>
-            <div id="headerImg" class="span-6 last">
-                    <img src="img/road.jpg" />
+            <div id="header" class="span-6">
+                    <img src="img/header2.jpg" />
+            </div>
+            <div id="header" class="span-6 last">
+                    <img src="img/header3.jpg" />
             </div>
             <div class="span-6">
                 <div id="menu" class="span-6 last">	
@@ -60,7 +63,7 @@ $_smarty_tpl->decodeProperties(array (
                 </div>
                 <div id="colorBlock" class="span-6 last"></div>
                 <div id="sidebarImg" class="span-6 last">
-                    <img src="img/bridge.jpg" />
+                    <img src="img/sidebar.jpg" />
                 </div>
             </div>
             <div id="content" class="span-18 last">
