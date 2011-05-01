@@ -1,8 +1,32 @@
+body {
+    background: url('/img/bg.jpg');
+}
 img {
     max-width: 100%;
     height: auto;
 }
 
-#logo {
-    background: url('img/header.jpg');
+#logo, #colorBlock {
+    background: url('/img/lightbrown.jpg');
+}
+
+#colorBlock{
+    height: 100px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.header {
+    height: 100px;
+    vertical-align: middle;
+}
+
+#menu ul li {
+    font-size: 20pt;
+    text-align: center;
+    background: url('/img/brown.jpg');
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 4px;
+    list-style-type: none;
 }
