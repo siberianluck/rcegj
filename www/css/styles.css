@@ -8,10 +8,11 @@ img {
 
 #logo, #colorBlock {
     background: url('/img/lightbrown.jpg');
+    border: 2px solid #6D3B23;
 }
 
 #colorBlock{
-    height: 100px;
+    height: 90px;
     margin-top: -10px;
     margin-bottom: 5px;
 }
@@ -25,8 +26,14 @@ img {
     font-size: 20pt;
     text-align: center;
     background: url('/img/brown.jpg');
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 5px;
     padding: 4px;
     list-style-type: none;
+    text-shadow: 1px 1px 1px #6D3B23;
+    border: 2px solid #6D3B23;
+}
+a:focus, a:hover, a:visited, a:active, a{
+    color: #000;
+    text-decoration: none;
 }
