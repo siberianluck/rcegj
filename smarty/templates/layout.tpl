@@ -15,27 +15,31 @@
     </head>
     <body>
         <div class="container">
-            <div id="logo" class="span-6">
+            <div class="span-6 header">
+                    <div id="logo" class="header">
                     <img src="img/logo.png" />
+                    </div>
             </div>
-            <div id="header" class="span-6">
+            <div class="span-6 header">
                     <img src="img/header1.jpg" />
             </div>
-            <div id="header" class="span-6">
+            <div class="span-6 header">
                     <img src="img/header2.jpg" />
             </div>
-            <div id="header" class="span-6 last">
+            <div class="span-6 header last">
                     <img src="img/header3.jpg" />
             </div>
             <div class="span-6">
                 <div id="menu" class="span-6 last">	
                         <ul>
-                                <li>About</li>
-                                <li>Staff</li>
-                                <li>Projects</li>
+                                <li><a href="index.php">About</a></li>
+                                <li><a href="staff.php">Staff</a></li>
+                                <li><a href="projects.php">Projects</a></li>
                         </ul>
                 </div>
-                <div id="colorBlock" class="span-6 last"></div>
+                <div class="span-6 last">
+                    <div id="colorBlock"></div>
+                </div>
                 <div id="sidebarImg" class="span-6 last">
                     <img src="img/sidebar.jpg" />
                 </div>
