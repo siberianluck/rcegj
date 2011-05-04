@@ -1,23 +1,23 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2011-04-30 22:04:49
+<?php /* Smarty version Smarty-3.0.7, created on 2011-05-04 11:33:03
          compiled from "../smarty/templates/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:16181790304db3031307d7c1-95686427%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18346220744dc18dcf859733-76953604%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0c04115701025fdf186966beead194600e6e675d' => 
     array (
       0 => '../smarty/templates/index.tpl',
-      1 => 1304032462,
+      1 => 1304530343,
       2 => 'file',
     ),
     'e79478cf52ba14fea344c76f0d87e53c7096b9a6' => 
     array (
       0 => '../smarty/templates/layout.tpl',
-      1 => 1304222687,
+      1 => 1304479018,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16181790304db3031307d7c1-95686427',
+  'nocache_hash' => '18346220744dc18dcf859733-76953604',
   'function' => 
   array (
   ),
@@ -37,9 +37,27 @@ $_smarty_tpl->decodeProperties(array (
 		
 		<!-- Page styles --> 
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" /> 
+                <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+                <script type="text/javascript">
+                    function initializeMap() {
+                        var latlng = new google.maps.LatLng(39.06365,-108.60902);
+                        var myOptions = {
+                            zoom: 15,
+                            center: latlng,
+                            mapTypeId: google.maps.MapTypeId.TERRAIN
+                        };
+                        var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+                        var marker = new google.maps.Marker({
+                            position: latlng,
+                            map: map,
+                            title: "Rolland Consulting Engineers"
+                        });
+                    }
+                </script>
+
 	
     </head>
-    <body>
+    <body onload="initializeMap()">
         <div class="container">
             <div class="span-6 header">
                     <div id="logo" class="header">
@@ -72,10 +90,36 @@ $_smarty_tpl->decodeProperties(array (
             </div>
             <div id="content" class="span-18 last">
                     
-	<H3>About Us</h3>
-	<p>Rolland Consulting Engineers is clearly the best company for any engineering
-	job you can imagine.  They have legendary surveyors and civil engineers eager 
-	to do your every bidding</p>
+<div class="span-9">
+    <div id="about" class="aboutPage">
+    <p>
+    <span id="RCE">Rolland Consulting Engineers</span> is a civil engineering and land surveying firm providing efficient engineering solutions to municipalities, property owners, land developers, and contractors in western Colorado.  Formerly known as Rolland Engineering, we changed our name after Tom Rolland's retirement.  We have a small foot-print but we have a great track record for projects of all sizes.  We've been providing quality ideas to Mesa County and western Colorado since 1983.
+    </p>
+    </div>
+</div>
+<div onload="initializeMap()" class="span-9 last">
+    <div class="aboutPage">
+    <div id="map_canvas"></div>
+    </div>
+</div> 
+<div class="span-9">
+    <div class="aboutPage">
+    <img id="aboutImg" src="/img/aboutPage.jpg" />
+    </div>
+</div>
+<div class="span-9 last">
+    <div class="aboutPage">
+    <div id="contact">
+        <span>Contact Us</span><br />
+        <span>By Phone: <?php echo $_smarty_tpl->getVariable('phone')->value;?>
+</span><br />
+        <span>By E-mail: <?php echo $_smarty_tpl->getVariable('email')->value;?>
+</span><br />
+        <span>In Person: <?php echo $_smarty_tpl->getVariable('address')->value;?>
+</span><br />
+    </div>
+    </div>
+</div>
 
             </div>
         </div>

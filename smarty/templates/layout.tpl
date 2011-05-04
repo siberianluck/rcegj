@@ -11,9 +11,27 @@
 		
 		<!-- Page styles --> 
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" /> 
+                <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+                <script type="text/javascript">
+                    function initializeMap() {
+                        var latlng = new google.maps.LatLng(39.06365,-108.60902);
+                        var myOptions = {
+                            zoom: 15,
+                            center: latlng,
+                            mapTypeId: google.maps.MapTypeId.TERRAIN
+                        };
+                        var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+                        var marker = new google.maps.Marker({
+                            position: latlng,
+                            map: map,
+                            title: "Rolland Consulting Engineers"
+                        });
+                    }
+                </script>
+
 	
     </head>
-    <body>
+    <body onload="initializeMap()">
         <div class="container">
             <div class="span-6 header">
                     <div id="logo" class="header">

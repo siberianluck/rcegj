@@ -6,9 +6,13 @@ img {
     height: auto;
 }
 
+#content {
+    margin-top: 15px;
+}
+
 #logo, #colorBlock {
     background: url('/img/lightbrown.jpg');
-    border: 2px solid #6D3B23;
+    border: 4px solid #6D3B23;
 }
 
 #colorBlock{
@@ -31,7 +35,7 @@ img {
     padding: 4px;
     list-style-type: none;
     text-shadow: 1px 1px 1px #6D3B23;
-    border: 2px solid #6D3B23;
+    border: 4px solid #6D3B23;
 }
 a:focus, a:hover, a:visited, a:active, a{
     color: #000;
@@ -42,9 +46,11 @@ a:focus, a:hover, a:visited, a:active, a{
 .nameCont, .brownCont, .purpCont, .blueCont, .bio {
     border: 4px solid #6D3B23;
     margin-top: 5px;
+    box-shadow: 0 0 3px #6D3B23;
 }
 .imgCont img{
     border: 4px solid #6D3B23;
+    box-shadow: 0 0 3px #6D3B23;
 }
 .imgCont{
     margin-top: 5px;
@@ -53,11 +59,13 @@ a:focus, a:hover, a:visited, a:active, a{
     font-size: 20pt;
     text-align: center;
     margin-top: 5px;
+    background-color: #F7F7F7
 }
 .bio {
     margin-top: 5px;
     font-size: 16pt;
     padding: 7px;
+    background-color: #F7F7F7
 }
 .brownCont, .purpCont, .blueCont{
     margin-top: 5px;
@@ -71,4 +79,44 @@ a:focus, a:hover, a:visited, a:active, a{
 }
 .blueCont{
     background: url('/img/lightblue.jpg');
+}
+
+/*About Page*/
+
+.aboutPage {
+    border: 4px solid #6D3B23;
+    box-shadow: 0 0 3px #6D3B23;
+    margin-top: 5px
+}
+
+#map_canvas {
+    width: 340px;
+    height: 308px;
+}
+
+#RCE {
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+#content div p {
+    font-size: 12pt;
+    height: 100%;
+}
+
+#about {
+    background: #F7F7F7;
+    height: 300px;
+    padding: 4px;
+}
+
+#contact {
+    font-size: 16pt;
+    text-align: center;
+    height: 293px;
+    background: #F7F7F7;
+}
+
+#aboutImg {
+    display: block;
 }

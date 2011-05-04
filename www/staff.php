@@ -16,7 +16,7 @@ $smarty->setConfigDir('../smarty/configs');
 $staff = array(
             array(
                 "name" => "Eric<br />Slivon",
-                "bio" => "Having travelled the world, Eric has experienced and come to understand many exotic cultures.  He applies this broad understanding of the world to his trade, enabling him to 'think out of the box' and produce surprising and creative solutions to any problem.",
+                "bio" => "Having traveled the world, Eric has experienced and come to understand many exotic cultures.  He applies this broad understanding of the world to his trade, enabling him to 'think out of the box' and produce surprising and creative solutions to any problem.",
                 "photo" => "eric.jpg"
             ),
             array(
