@@ -14,7 +14,7 @@
 </div> 
 <div class="span-9">
     <div class="aboutPage">
-    <img id="aboutImg" src="/img/aboutPage.jpg" />
+    <img class="layoutImg" id="aboutImg" src="/img/aboutPage.jpg" />
     </div>
 </div>
 <div class="span-9 last">

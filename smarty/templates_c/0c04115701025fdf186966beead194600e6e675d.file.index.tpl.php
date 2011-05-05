@@ -1,23 +1,23 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2011-05-04 11:33:03
+<?php /* Smarty version Smarty-3.0.7, created on 2011-05-05 09:18:10
          compiled from "../smarty/templates/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:18346220744dc18dcf859733-76953604%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4139708884dc2bfb23f5ff1-91912722%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0c04115701025fdf186966beead194600e6e675d' => 
     array (
       0 => '../smarty/templates/index.tpl',
-      1 => 1304530343,
+      1 => 1304608687,
       2 => 'file',
     ),
     'e79478cf52ba14fea344c76f0d87e53c7096b9a6' => 
     array (
       0 => '../smarty/templates/layout.tpl',
-      1 => 1304479018,
+      1 => 1304608637,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18346220744dc18dcf859733-76953604',
+  'nocache_hash' => '4139708884dc2bfb23f5ff1-91912722',
   'function' => 
   array (
   ),
@@ -38,40 +38,26 @@ $_smarty_tpl->decodeProperties(array (
 		<!-- Page styles --> 
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" /> 
                 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-                <script type="text/javascript">
-                    function initializeMap() {
-                        var latlng = new google.maps.LatLng(39.06365,-108.60902);
-                        var myOptions = {
-                            zoom: 15,
-                            center: latlng,
-                            mapTypeId: google.maps.MapTypeId.TERRAIN
-                        };
-                        var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-                        var marker = new google.maps.Marker({
-                            position: latlng,
-                            map: map,
-                            title: "Rolland Consulting Engineers"
-                        });
-                    }
-                </script>
+                <?php echo $_smarty_tpl->getVariable('mapScript')->value;?>
 
 	
     </head>
-    <body onload="initializeMap()">
+    <body <?php echo $_smarty_tpl->getVariable('bodyLoad')->value;?>
+>
         <div class="container">
             <div class="span-6 header">
                     <div id="logo" class="header">
-                    <img src="img/logo.png" />
+                    <img class="layoutImg" src="img/logo.png" />
                     </div>
             </div>
             <div class="span-6 header">
-                    <img src="img/header1.jpg" />
+                    <img class="layoutImg" src="img/header1.jpg" />
             </div>
             <div class="span-6 header">
-                    <img src="img/header2.jpg" />
+                    <img class="layoutImg" src="img/header2.jpg" />
             </div>
             <div class="span-6 header last">
-                    <img src="img/header3.jpg" />
+                    <img class="layoutImg" src="img/header3.jpg" />
             </div>
             <div class="span-6">
                 <div id="menu" class="span-6 last">	
@@ -85,7 +71,7 @@ $_smarty_tpl->decodeProperties(array (
                     <div id="colorBlock"></div>
                 </div>
                 <div id="sidebarImg" class="span-6 last">
-                    <img src="img/sidebar.jpg" />
+                    <img class="layoutImg" src="img/sidebar.jpg" />
                 </div>
             </div>
             <div id="content" class="span-18 last">
@@ -104,7 +90,7 @@ $_smarty_tpl->decodeProperties(array (
 </div> 
 <div class="span-9">
     <div class="aboutPage">
-    <img id="aboutImg" src="/img/aboutPage.jpg" />
+    <img class="layoutImg" id="aboutImg" src="/img/aboutPage.jpg" />
     </div>
 </div>
 <div class="span-9 last">
