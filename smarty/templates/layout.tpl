@@ -10,6 +10,7 @@
 		<![endif]-->
 		
 		<!-- Page styles --> 
+                <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" /> 
                 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
                 {$mapScript}
@@ -40,7 +41,7 @@
                         </ul>
                 </div>
                 <div class="span-6 last">
-                    <div id="colorBlock"></div>
+                    <div id="colorBlock">Design - working from the measured breadth</div>
                 </div>
                 <div id="sidebarImg" class="span-6 last">
                     <img class="layoutImg" src="img/sidebar.jpg" />

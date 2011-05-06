@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2011-05-05 14:17:12
+<?php /* Smarty version Smarty-3.0.7, created on 2011-05-05 20:09:07
          compiled from "../smarty/templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:4139708884dc2bfb23f5ff1-91912722%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_smarty_tpl->decodeProperties(array (
     'e79478cf52ba14fea344c76f0d87e53c7096b9a6' => 
     array (
       0 => '../smarty/templates/layout.tpl',
-      1 => 1304626629,
+      1 => 1304647739,
       2 => 'file',
     ),
   ),
@@ -36,6 +36,7 @@ $_smarty_tpl->decodeProperties(array (
 		<![endif]-->
 		
 		<!-- Page styles --> 
+                <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" /> 
                 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
                 <?php echo $_smarty_tpl->getVariable('mapScript')->value;?>
@@ -68,7 +69,7 @@ $_smarty_tpl->decodeProperties(array (
                         </ul>
                 </div>
                 <div class="span-6 last">
-                    <div id="colorBlock"></div>
+                    <div id="colorBlock">Design - working from the measured breadth</div>
                 </div>
                 <div id="sidebarImg" class="span-6 last">
                     <img class="layoutImg" src="img/sidebar.jpg" />

@@ -17,9 +17,11 @@ img.layoutImg {
 }
 
 #colorBlock{
-    height: 90px;
     margin-top: -10px;
     margin-bottom: 5px;
+    font-family: 'Dancing Script', arial, serif; 
+    font-size: 19pt;
+    text-shadow: 1px 1px 1px #6D3B23;
 }
 
 .header {
