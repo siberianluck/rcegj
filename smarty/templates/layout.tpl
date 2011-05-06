@@ -17,14 +17,14 @@
     </head>
     <body {$bodyLoad}>
         <div class="container">
-            <div class="span-6 header">
+            <div class="span-12 header">
                     <div id="logo" class="header">
                     <img class="layoutImg" src="img/logo.png" />
                     </div>
             </div>
-            <div class="span-6 header">
+            <!--<div class="span-6 header">
                     <img class="layoutImg" src="img/header1.jpg" />
-            </div>
+            </div>-->
             <div class="span-6 header">
                     <img class="layoutImg" src="img/header2.jpg" />
             </div>

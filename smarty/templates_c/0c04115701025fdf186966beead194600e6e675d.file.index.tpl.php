@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2011-05-05 09:18:10
+<?php /* Smarty version Smarty-3.0.7, created on 2011-05-05 14:17:12
          compiled from "../smarty/templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:4139708884dc2bfb23f5ff1-91912722%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_smarty_tpl->decodeProperties(array (
     'e79478cf52ba14fea344c76f0d87e53c7096b9a6' => 
     array (
       0 => '../smarty/templates/layout.tpl',
-      1 => 1304608637,
+      1 => 1304626629,
       2 => 'file',
     ),
   ),
@@ -45,14 +45,14 @@ $_smarty_tpl->decodeProperties(array (
     <body <?php echo $_smarty_tpl->getVariable('bodyLoad')->value;?>
 >
         <div class="container">
-            <div class="span-6 header">
+            <div class="span-12 header">
                     <div id="logo" class="header">
                     <img class="layoutImg" src="img/logo.png" />
                     </div>
             </div>
-            <div class="span-6 header">
+            <!--<div class="span-6 header">
                     <img class="layoutImg" src="img/header1.jpg" />
-            </div>
+            </div>-->
             <div class="span-6 header">
                     <img class="layoutImg" src="img/header2.jpg" />
             </div>

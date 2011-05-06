@@ -13,6 +13,7 @@ img.layoutImg {
 #logo, #colorBlock {
     background: url('/img/lightbrown.jpg');
     border: 4px solid #6D3B23;
+    text-align: center;
 }
 
 #colorBlock{
