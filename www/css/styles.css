@@ -13,12 +13,15 @@ img.layoutImg {
 #logo, #colorBlock {
     background: url('/img/lightbrown.jpg');
     border: 4px solid #6D3B23;
+    text-align: center;
 }
 
 #colorBlock{
-    height: 90px;
     margin-top: -10px;
     margin-bottom: 5px;
+    font-family: 'Dancing Script', arial, serif; 
+    font-size: 19pt;
+    text-shadow: 1px 1px 1px #6D3B23;
 }
 
 .header {
