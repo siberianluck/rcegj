@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2011-05-09 11:59:05
+<?php /* Smarty version Smarty-3.0.7, created on 2011-05-09 13:45:12
          compiled from "../smarty/templates/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:20334333244dc82b69839090-60591326%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4404163644dc844484cf746-66456547%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0c04115701025fdf186966beead194600e6e675d' => 
     array (
       0 => '../smarty/templates/index.tpl',
-      1 => 1304963525,
+      1 => 1304970308,
       2 => 'file',
     ),
     'e79478cf52ba14fea344c76f0d87e53c7096b9a6' => 
@@ -17,7 +17,7 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '20334333244dc82b69839090-60591326',
+  'nocache_hash' => '4404163644dc844484cf746-66456547',
   'function' => 
   array (
   ),
@@ -103,8 +103,9 @@ $_smarty_tpl->decodeProperties(array (
         <span>Contact Us</span><br />
         <span>By Phone: <?php echo $_smarty_tpl->getVariable('phone')->value;?>
 </span><br />
-        <span>By E-mail: <?php echo $_smarty_tpl->getVariable('email')->value;?>
-</span><br />
+        <span>By E-mail: <a href="mailto:<?php echo $_smarty_tpl->getVariable('email')->value;?>
+"><?php echo $_smarty_tpl->getVariable('email')->value;?>
+</a></span><br />
         <span>In Person: <?php echo $_smarty_tpl->getVariable('address')->value;?>
 </span><br />
     </div>

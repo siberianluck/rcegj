@@ -42,7 +42,7 @@ var projects = {
         longCoord: -108.559028,
         title: "St Mary's Hospital",
         id: 'A1204',
-        description: "St Mary's Hospital: Proj No. A1204:  RCE and staff have been participating in the growth of this major regional hospital since before 1977. Established on the present site in the 1950’s, St. Mary's is the largest regional hospital between Salt Lake City and Denver."
+        description: "St Mary's Hospital: Proj No. A1204:  RCE and staff have been participating in the growth of this major regional hospital since before 1977. Established on the present site in the 1950's, St. Mary's is the largest regional hospital between Salt Lake City and Denver."
     },
     project1023: {
         latCoord: 39.088722,
@@ -84,7 +84,7 @@ var projects = {
         longCoord: -108.560944,
         title: "City of Grand Junction: 7th Street",
         id: '5005',
-        description: "City of Grand Junction, 7th Street Remodel: Proj. No. 5005: The 7th Street Remodel and RoundAbout is an example of many street reconstruction designs performed for the City of Grand Junction by RCE/Rolland Engineering. Acting as a gateway to downtown shopping, the remodel design upgraded an old city street to a modern and appealing “streetscape”."
+        description: "City of Grand Junction, 7th Street Remodel: Proj. No. 5005: The 7th Street Remodel and RoundAbout is an example of many street reconstruction designs performed for the City of Grand Junction by RCE/Rolland Engineering. Acting as a gateway to downtown shopping, the remodel design upgraded an old city street to a modern and appealing \"streetscape\"."
     },
     project5067: {
         latCoord: 39.067667,

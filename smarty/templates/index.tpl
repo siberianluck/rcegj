@@ -22,7 +22,7 @@
     <div id="contact">
         <span>Contact Us</span><br />
         <span>By Phone: {$phone}</span><br />
-        <span>By E-mail: {$email}</span><br />
+        <span>By E-mail: <a href="mailto:{$email}">{$email}</a></span><br />
         <span>In Person: {$address}</span><br />
     </div>
     </div>
