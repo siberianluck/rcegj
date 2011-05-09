@@ -7,6 +7,7 @@ $smarty->setTemplateDir('../smarty/templates');
 $smarty->setCompileDir('../smarty/templates_c');
 $smarty->setCacheDir('../smarty/cache');
 $smarty->setConfigDir('../smarty/configs');
+$smarty->force_compile = true;
 
 $smarty->assign('phone', '243-8300');
 $smarty->assign('email', 'rce@rcegj.com');

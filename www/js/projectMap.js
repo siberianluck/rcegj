@@ -42,14 +42,14 @@ var projects = {
         longCoord: -108.559028,
         title: "St Mary's Hospital",
         id: 'A1204',
-        description: "St Mary’s Hospital: Proj No. A1204:  RCE and staff have been participating in the growth of this major regional hospital since before 1977. Established on the present site in the 1950’s, St. Mary’s is the largest regional hospital between Salt Lake City and Denver."
+        description: "St Mary's Hospital: Proj No. A1204:  RCE and staff have been participating in the growth of this major regional hospital since before 1977. Established on the present site in the 1950’s, St. Mary's is the largest regional hospital between Salt Lake City and Denver."
     },
     project1023: {
         latCoord: 39.088722,
         longCoord: -108.559028,
         title: "St Mary's Advanced Medical Pavilion",
         id: '1023',
-        description: "St. Mary’s Advanced Medical Pavilion: Proj. No. 1023:  Rolland Engineering provided all the site engineering, boundary surveys, and final surveys of this state of the art medical center."
+        description: "St. Mary's Advanced Medical Pavilion: Proj. No. 1023:  Rolland Engineering provided all the site engineering, boundary surveys, and final surveys of this state of the art medical center."
     },
     project3046: {
         latCoord: 39.095111,
