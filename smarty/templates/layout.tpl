@@ -8,6 +8,9 @@
 		<!--[if lt IE 8]>
 		<link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
 		<![endif]-->
+                <!--[if lt IE 9]>
+                <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+                <![endif]-->
 		
 		<!-- Page styles --> 
                 <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">

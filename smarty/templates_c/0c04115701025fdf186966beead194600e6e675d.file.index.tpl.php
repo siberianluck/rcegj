@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2011-05-05 20:09:07
+<?php /* Smarty version Smarty-3.0.7, created on 2011-05-08 16:54:21
          compiled from "../smarty/templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:4139708884dc2bfb23f5ff1-91912722%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_smarty_tpl->decodeProperties(array (
     'e79478cf52ba14fea344c76f0d87e53c7096b9a6' => 
     array (
       0 => '../smarty/templates/layout.tpl',
-      1 => 1304647739,
+      1 => 1304895201,
       2 => 'file',
     ),
   ),
@@ -34,6 +34,9 @@ $_smarty_tpl->decodeProperties(array (
 		<!--[if lt IE 8]>
 		<link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
 		<![endif]-->
+                <!--[if lt IE 9]>
+                <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+                <![endif]-->
 		
 		<!-- Page styles --> 
                 <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
